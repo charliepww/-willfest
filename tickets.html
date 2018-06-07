@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
@@ -24,6 +24,8 @@ body {
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
+	background-color: #FFF;
+	background-image: url(file:///N|/Documents/site/Background%20image.jpg);
 }
 .oneColLiqCtrHdr #container {
 	width: 80%;  /* this will create a container 80% of the browser width */
@@ -33,8 +35,8 @@ body {
 	text-align: left; /* this overrides the text-align: center on the body element. */
 }
 .oneColLiqCtrHdr #header {
-	background: #DDDDDD; 
 	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #D9D9BD;
 }
 .oneColLiqCtrHdr #header h1 {
 	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
@@ -44,13 +46,19 @@ body {
 	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
 	background: #FFFFFF;
 }
-.oneColLiqCtrHdr #footer { 
-	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
-	background:#DDDDDD;
+.oneColLiqCtrHdr #footer {
+	padding: 0 10px;
+	background-color: #D9D9BD;
 } 
 .oneColLiqCtrHdr #footer p {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
 	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.oneColLiqCtrHdr #container #footer p a {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
 }
 
 
@@ -84,7 +92,7 @@ body {
     <!-- InstanceEndEditable -->
     <!-- end #mainContent --></div>
   <div id="footer">
-    <p><img src="images/facebook logo.png" width="32" height="32" alt="facebook logo" /><img src="images/twitter logo.png" width="32" height="32" alt="Twitter logo" /><img src="images/instagram logo.png" width="32" height="32" alt="Instagram logo" /></p>
+    <p><a href="facebook.com"><img src="images/facebook logo.png" width="32" height="32" alt="facebook logo" /></a><a href="twitter.com"><img src="images/twitter logo.png" width="32" height="32" alt="Twitter logo" /></a><a href="instagram.com"><img src="images/instagram logo.png" width="32" height="32" alt="Instagram logo" /></a></p>
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>
